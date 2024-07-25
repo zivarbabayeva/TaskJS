@@ -1,0 +1,68 @@
+.employers {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 30px;
+place-items: center;
+width: 100%;
+}
+
+.employer {
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
+.violet{
+    background-color: rgb(96, 0, 169);
+    height: 200px;
+}
+.info,.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.details{
+    padding: 10px;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   top:-50px;
+   padding: 5px;
+   background-color: white;
+   border-radius: 999px;
+}
+.image>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+}
+.fullname{
+text-align: center;
+font-size: 24px;
+margin-top: 50px;
+}
+.profession{
+    color: rgb(239,54,239);
+    font-size: 20px;
+    text-align: center;
+}
+.description{
+    padding: 10px 30px;
+    text-align: center;
+    color:gray;
+    font-size: 18px;
+}
+
+.button {
+    background-color: purple;
+    padding: 10px 20px;
+    border-radius: 999px;
+   color: white;
+   width: 40%;
+   text-align: center;
+   margin-top: 10px;
+}
